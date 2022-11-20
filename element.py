@@ -8,14 +8,14 @@ class Ligne :
         self.O = origine
         self.c = couleur
     def draw(self):
-        if turtle.isdown() : turtle.penup()
-        turle.setposition(self.O[0], self.O[1])
-        turtle.setheading(self.a)
-        turtle.pencolor(self.c)
-        turtle.pensize(self.L)
-        turtle.pendown()
-        turtle.forward(self.l)
-        turtle.penup()
+        if isdown() : penup()
+        setposition(self.O[0], self.O[1])
+        setheading(self.a)
+        pencolor(self.c)
+        pensize(self.L)
+        pendown()
+        forward(self.l)
+        penup()
 
 class arc_cercle :
     def __init__(self):
