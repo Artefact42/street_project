@@ -16,9 +16,3 @@ class Ligne :
         pendown()
         forward(self.l)
         penup()
-
-class arc_cercle :
-    def __init__(self):
-        pass
-    def draw(self):
-        pass

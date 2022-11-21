@@ -1,5 +1,5 @@
 from turtle import *
-from element import Ligne
+from ligne import Ligne
 
 try:
     reset()  
