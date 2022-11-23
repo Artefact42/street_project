@@ -1,15 +1,15 @@
-from turtle import *
+import turtle as t
 from ligne import Ligne
+from rectangle import Rectangle
 
 try:
-    reset()  
-except Terminator:
+    t.reset()  
+except t.Terminator:
     pass
 
-title("Ma super fenêtre")
-setup(640, 480, 100, 100)
+t.title("Ma super fenêtre")
+t.setup(640, 480, 100, 100)
 
-t1 = Ligne(200,42,69,(3,6),"yellow")
-t1.draw()
-
-exitonclick()
+rect = Rectangle(200,100,5)
+rect.draw()
+t.exitonclick()

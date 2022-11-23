@@ -1,18 +1,11 @@
-from turtle import *
+import turtle as t
 
 class Ligne :
-    def __init__(self,longeur:int,largeur:int,angle:float,origine:tuple,couleur:str):
+    def __init__(self,longeur:int,epaisseur:int,couleur:str="black"):
         self.l = longeur
-        self.L = largeur
-        self.a = angle
-        self.O = origine
+        self.e = epaisseur
         self.c = couleur
     def draw(self):
-        if isdown() : penup()
-        setposition(self.O[0], self.O[1])
-        setheading(self.a)
-        pencolor(self.c)
-        pensize(self.L)
-        pendown()
-        forward(self.l)
-        penup()
+        t.pencolor(self.c)
+        t.pensize(self.e)
+        t.forward(self.l)
