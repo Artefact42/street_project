@@ -1,6 +1,6 @@
 from turtle import *
 
-class Arc_cercle :
+class Demi_cercle :
     def __init__(self):
         pass
     def draw(self):
