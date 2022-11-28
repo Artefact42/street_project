@@ -15,4 +15,5 @@ rect.draw()
 
 cer = Demi_cercle(rect.l,7)
 cer.draw()
+
 t.exitonclick()
