@@ -9,10 +9,10 @@ class Rectangle :
         self.e = epaisseur
         self.a = 90
     def draw(self):
-        t.pencolor(self.c)
-        t.pensize(self.e)
+        L1 = Ligne(self.l,self.e,self.c)
+        L2 = Ligne(self.L,self.e,self.c)
         for i in range(2) :
-            t.forward(self.l)
-            t.left(self.a)
-            t.forward(self.L)
-            t.left(self.a)
+            L1.draw()
+            t.right(self.a)
+            L2.draw()
+            t.right(self.a)
