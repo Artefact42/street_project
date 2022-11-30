@@ -2,6 +2,7 @@ import turtle as t
 from rectangle import Rectangle
 from demi_cercle import Demi_cercle
 from porte import Porte
+from vitre import Vitre
 
 try:
     t.reset()  
@@ -11,16 +12,17 @@ except t.Terminator:
 t.hideturtle()
 t.speed(10)
 
-t.title("Ma super fenêtre")
+t.title("STREET !")
 t.setup(640, 480, 100, 100)
 
-"""rect = Rectangle(200,100,5)
-rect.draw()
+"""
+Rectangle(200,100,5).draw()
 
-cer = Demi_cercle(rect.l,5)
-cer.draw()"""
+Demi_cercle(rect.l,5).draw()
 
-a = Porte()
-a.draw()
+Porte().draw()
+"""
+
+Vitre().draw()
 
 t.exitonclick()
