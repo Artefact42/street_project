@@ -25,5 +25,6 @@ class Porte :
             Ligne(self.l,self.e).draw()
             t.setheading(90)
             Ligne(self.L,self.e).draw()
+            t.setheading(90)
             Demi_cercle(self.l,self.e).draw()
             t.end_fill()
