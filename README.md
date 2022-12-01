@@ -1,2 +1,2 @@
 # street_project
-This program in Python is an exercise to build a street thanks to the Turtle module with OOP and modularity.
+Ce projet en python est un exercice qui vise à dessiner une rue via le module Turtle, grâce à la modularité et la POO.
