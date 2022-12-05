@@ -9,5 +9,5 @@ class Balcon:
     def draw(self):
         Rectangle(self.l, self.L, self.e).draw()
         for i in range(10):
-            Rectangle(self.l/10, self.L, self.e/2.5).draw()
+            Rectangle(self.l/10, self.L, self.e/2).draw()
             t.backward(self.l/10)
