@@ -4,6 +4,9 @@ from rectangle import Rectangle
 from demi_cercle import Demi_cercle
 from porte import Porte
 from vitre import Vitre
+from balcon import Balcon
+from vitre import Vitre
+from fenetre import Fenetre
 
 try:
     t.reset()  
@@ -21,9 +24,11 @@ Ligne(10,3).draw()
 Rectangle(200,100,3).draw()
 Demi_cercle(rect.l,3).draw()
 Porte().draw()
+Vitre().draw()
+Balcon().draw()
+Vitre().draw()
 """
 
-Vitre().draw()
-
+Fenetre().draw()
 
 t.exitonclick()
