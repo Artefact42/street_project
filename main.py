@@ -7,6 +7,7 @@ from vitre import Vitre
 from balcon import Balcon
 from vitre import Vitre
 from fenetre import Fenetre
+from toit import Toit
 
 try:
     t.reset()  
@@ -27,8 +28,9 @@ Porte().draw()
 Vitre().draw()
 Balcon().draw()
 Vitre().draw()
+Fenetre().draw()
 """
 
-Fenetre().draw()
+Toit().draw()
 
 t.exitonclick()
