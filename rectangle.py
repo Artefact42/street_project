@@ -2,8 +2,8 @@ import turtle as t
 from ligne import Ligne
 
 class Rectangle :
-    def __init__(self,longeur:int,largeur:int,epaisseur:int,couleur:str="black"):
-        self.l = longeur
+    def __init__(self,longueur:int,largeur:int,epaisseur:int,couleur:str="black"):
+        self.l = longueur
         self.L = largeur
         self.c = couleur
         self.e = epaisseur
