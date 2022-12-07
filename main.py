@@ -8,6 +8,8 @@ from balcon import Balcon
 from vitre import Vitre
 from fenetre import Fenetre
 from toit import Toit
+from sol import Sol
+from rue import Rue
 
 try:
     t.reset()  
@@ -15,10 +17,10 @@ except t.Terminator:
     pass
 
 t.hideturtle()
-t.speed(10)
+t.speed("fastest")
 
-t.title("STREET !")
-t.setup(640, 480, 100, 100)
+t.title("Street_project Alexis Dorian Gabriel")
+t.setup(770, 480)
 
 """
 Ligne(10,3).draw()
@@ -27,10 +29,10 @@ Demi_cercle(rect.l,3).draw()
 Porte().draw()
 Vitre().draw()
 Balcon().draw()
-Vitre().draw()
 Fenetre().draw()
-"""
-
 Toit().draw()
+"""
+Rue().draw()
+
 
 t.exitonclick()
