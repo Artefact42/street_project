@@ -17,9 +17,8 @@ class Rue :
         t.penup()
         t.goto(self.ox, self.oy)
         for i in range(4):
-            self.ox +=30
+            self.ox +=170
             t.penup()
             t.goto(self.ox, self.oy)
             t.pendown()
             Rectangle(140,140,5).draw()
-            self.ox+=140
