@@ -22,6 +22,7 @@ except t.Terminator:
 t.hideturtle()
 t.colormode(255)
 t.speed("fastest")
+#t.speed(1)
 
 t.title("Street_project Alexis Dorian Gabriel")
 t.setup(770, 480)
@@ -37,7 +38,7 @@ Fenetre().draw()
 Toit().draw()
 Rue().draw()
 """
-Etage((55,12,6),True).draw()
+Etage((2,200,6),True).draw()
 
 
 t.exitonclick()

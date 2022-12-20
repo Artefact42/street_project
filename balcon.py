@@ -3,9 +3,9 @@ from rectangle import Rectangle
 
 class Balcon:
     def __init__(self):
-        self.l = 42
+        self.l = 38
         self.L = 30
-        self.e = 3
+        self.e = 1
     def draw(self):
         Rectangle(self.l, self.L, self.e).draw()
         for i in range(10):

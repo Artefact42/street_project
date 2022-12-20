@@ -16,6 +16,6 @@ class Fenetre :
             t.penup()
             t.forward((b.l-v.cote)/2)
             t.setheading(270)
-            t.forward(b.L-10)
+            t.forward(b.L-15)
             t.pendown()
             b.draw()
