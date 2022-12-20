@@ -42,5 +42,4 @@ Triangle(140, 45, 3, couleur_fond=(12,244,6)).draw()
 """
 Etage((2,200,6),True).draw()
 
-
 t.exitonclick()
