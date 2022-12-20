@@ -21,9 +21,6 @@ class Toit:
             Ligne(self.l,self.e).draw()
             t.end_fill()
         elif self.type == 2:
-            t.fillcolor("brown")
-            t.begin_fill()
             for i in range(5):
                 t.setheading(90)
-                Demi_cercle(self.d/5, self.e).draw()
-            t.end_fill()
+                Demi_cercle(self.d/5, self.e,couleur_fond="brown").draw()

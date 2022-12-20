@@ -19,10 +19,9 @@ try:
 except t.Terminator:
     pass
 
-t.hideturtle()
+#t.hideturtle()
 t.colormode(255)
 t.speed("fastest")
-#t.speed(1)
 
 t.title("Street_project Alexis Dorian Gabriel")
 t.setup(770, 480)
