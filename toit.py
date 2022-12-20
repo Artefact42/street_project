@@ -1,26 +1,20 @@
 from random import randint
-from rectangle import Rectangle
 from demi_cercle import Demi_cercle
 import turtle as t
-from ligne import Ligne
-
+from triangle import Triangle
 
 class Toit:
     def __init__(self):
         self.type = randint(1,2)
         self.e = 3
-        self.l = 20000**0.5
-        self.d = 200
+        self.l = 140
+        self.c = "brown"
+        self.angle = 45
+        self.nb_ronds = 5
     def draw(self):
         if self.type == 1:
-            t.fillcolor("brown")
-            t.begin_fill()
-            t.setheading(135)
-            Ligne(self.l,self.e).draw()
-            t.setheading(-135)
-            Ligne(self.l,self.e).draw()
-            t.end_fill()
+            Triangle(self.l, self.angle, self.e, couleur_fond=self.c).draw()
         elif self.type == 2:
-            for i in range(5):
+            for i in range(self.nb_ronds):
                 t.setheading(90)
-                Demi_cercle(self.d/5, self.e,couleur_fond="brown").draw()
+                Demi_cercle(self.l/self.nb_ronds, self.e, couleur_fond=self.c).draw()

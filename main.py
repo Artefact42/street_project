@@ -11,6 +11,7 @@ from toit import Toit
 from sol import Sol
 from rue import Rue
 from etage import Etage
+from triangle import Triangle
 
 
 
@@ -37,7 +38,9 @@ Fenetre().draw()
 Toit().draw()
 Rue().draw()
 Etage((2,200,6),True).draw()
+Triangle(140, 45, 3, couleur_fond=(12,244,6)).draw()
 """
 Etage((2,200,6),True).draw()
+
 
 t.exitonclick()
