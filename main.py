@@ -19,7 +19,7 @@ try:
 except t.Terminator:
     pass
 
-#t.hideturtle()
+t.hideturtle()
 t.colormode(255)
 t.speed("fastest")
 
