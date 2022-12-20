@@ -13,10 +13,7 @@ class Porte :
         self.diminution_porte2 = 5
     def draw(self):
         if self.type == 1 :
-            t.fillcolor("sienna")
-            t.begin_fill()
-            Rectangle(self.l,self.L,self.e).draw()
-            t.end_fill()
+            Rectangle(self.l,self.L,self.e,couleur_fond="sienna").draw()
         else :
             t.fillcolor("cyan")
             t.begin_fill()

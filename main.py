@@ -37,8 +37,8 @@ Balcon().draw()
 Fenetre().draw()
 Toit().draw()
 Rue().draw()
+Etage((2,200,6),True).draw()
 """
 Etage((2,200,6),True).draw()
-
 
 t.exitonclick()
