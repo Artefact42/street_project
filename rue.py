@@ -1,14 +1,12 @@
 import turtle as t
 from sol import Sol
 #from immeuble import Immeuble
-from rectangle import Rectangle
+from immeuble import Immeuble
 
 class Rue :
     def __init__(self) :
         self.ox = -355
-        self.oy = -160
-        self.esp = 30
-        
+        self.oy = -160 
     def draw (self):
         t.penup()
         t.goto(self.ox, self.oy)
@@ -19,6 +17,6 @@ class Rue :
         for i in range(4):
             self.ox +=170
             t.penup()
-            t.goto(self.ox, self.oy)
+            t.goto(self.ox, self.oy+60)
             t.pendown()
-            Rectangle(140,140,5).draw()
+            Immeuble().draw()
