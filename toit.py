@@ -6,7 +6,7 @@ from triangle import Triangle
 class Toit:
     def __init__(self):
         self.type = randint(1,2)
-        self.e = 3
+        self.e = 1
         self.l = 140
         self.c = "brown"
         self.angle = 45
