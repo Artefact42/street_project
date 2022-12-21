@@ -2,7 +2,7 @@ import turtle as t
 from rue import Rue
 
 try:
-    t.reset()  
+    t.reset()
 except t.Terminator:
     pass
 

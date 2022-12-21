@@ -1,6 +1,5 @@
 import turtle as t
 from sol import Sol
-#from immeuble import Immeuble
 from immeuble import Immeuble
 
 class Rue :

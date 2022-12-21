@@ -1,4 +1,3 @@
-import turtle as t
 from ligne import Ligne
 
 class Sol : 

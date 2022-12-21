@@ -1,4 +1,3 @@
-import turtle as t
 from rectangle import Rectangle
 
 class Vitre :
