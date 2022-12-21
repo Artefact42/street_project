@@ -8,7 +8,7 @@ class Immeuble:
         self.r = randint(0,255)
         self.v = randint(0,255)
         self.b = randint(0,255)
-        self.nb = randint (0,2)
+        self.nb = randint (0,3)
 
     def draw(self):
         origine = t.pos()

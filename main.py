@@ -9,7 +9,6 @@ except t.Terminator:
 t.hideturtle()
 t.colormode(255)
 t.speed("fastest")
-
 t.title("Street_project Alexis Dorian Gabriel")
 t.setup(770, 480)
 
