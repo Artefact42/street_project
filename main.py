@@ -41,6 +41,5 @@ Rue().draw()
 Etage((2,200,6),True).draw()
 Triangle(140, 45, 3, couleur_fond=(12,244,6)).draw()
 """
-#Etage((100,100,100),False).draw()
 Rue().draw()
 t.exitonclick()
