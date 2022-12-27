@@ -7,7 +7,7 @@ class Triangle :
     __init__ = méthode constructeur de la Classe
     draw = méthode pour dessiner le triangle
     """
-    def __init__(self, base:int, angle:float, epaisseur:int,couleur_contour:str="black",couleur_fond:tuple or bool or str=False):
+     def __init__(self, base:int, angle:float, epaisseur:int,couleur_contour:str="black",couleur_fond:tuple or bool or str=False):
         """Methode constructeur
         Prend pour paramètres:
         base:int = Le paramètre correspond à la longueur de la base du triangle isocèle.
@@ -21,7 +21,7 @@ class Triangle :
         self.c_c = couleur_contour
         self.c_f = couleur_fond
         self.e = epaisseur
-    def draw(self):
+     def draw(self):
         """Méthode dessinage du triangle
         Dessine à l'aide des modules math, turtle et ligne. Un triangle en fonction des attributs de la méthode __init__
         """
