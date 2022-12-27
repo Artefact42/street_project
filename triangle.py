@@ -3,7 +3,7 @@ import turtle as t
 from ligne import Ligne
 
 class Triangle :
-     """Classe triangle utilisant le module math, turtle et ligne, possédant 2 méthodes:
+    """Classe triangle utilisant le module math, turtle et ligne, possédant 2 méthodes:
     __init__ = méthode constructeur de la Classe
     draw = méthode pour dessiner le triangle
     """
