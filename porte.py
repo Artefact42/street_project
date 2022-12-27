@@ -5,6 +5,7 @@ from ligne import Ligne
 from random import randint
 
 class Porte :
+    """Classe Porte, elle permet de créer créer deux types de portes, à l'aide du module turtle et des modules ligne, demi_cercle, rectangle et random. """
     def __init__(self):
         self.type = randint(1,2)
         self.e = 1
