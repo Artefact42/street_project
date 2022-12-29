@@ -17,7 +17,7 @@ class Immeuble:
         self.r = randint(0,255)
         self.v = randint(0,255)
         self.b = randint(0,255)
-        self.nb = randint (0,3)
+        self.nb = randint (0,4)
 
     def draw(self):
         """Méthode dessinage de l'Etage
