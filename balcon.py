@@ -3,9 +3,9 @@ from rectangle import Rectangle
 
 class Balcon:
     """La classe Balcon utilise le module turtle et rectangle pour créer un balcon généré aléatoirement pour chaque fenêtre d'un immeuble.
-        2 modules:
-        __init__ est le module constructeur de la classe Balcon
-        draw : ce module permet de dessiner le balcon à l'aide du module Rectangle"""
+        2 méthodes:
+        __init__ est la méthode constructeur de la classe Balcon
+        draw : cette méthode permet de dessiner le balcon à l'aide du module Rectangle"""
     def __init__(self):
         """Méthode constructeur
         3 valeurs sont définies par défaut, la longueur, la largeur, et l'épaisseur.
